@@ -11,6 +11,7 @@ namespace Es1Pag234
             Leggi(ref numeri, ref somma);
             Console.WriteLine($"Hai inserito {numeri} numeri e la somma è {somma}");
             Console.ReadLine();
+
         }
 
         private static void Leggi(ref int count, ref int somma)
